@@ -1,0 +1,47 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+body{
+	background: #eee;
+}
+
+header{
+	background: #f98722 url("../images/header-bg.png") repeat-x; 
+}
+section{
+	background: #fff;
+	min-height: 400px;
+}
+footer{
+	background: #eee url('../images/footer-bg.png') repeat-x;
+	padding-top: 15px !important;
+}
+
+
+
+
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+
+
+
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+
