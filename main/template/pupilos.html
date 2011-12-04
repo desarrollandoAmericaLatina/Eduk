@@ -1,0 +1,32 @@
+{% extends 'layout.html' %}
+{% block content %}
+
+    <div class="row">
+        <br>
+        <div class="eight columns centered" align="center">
+            <h4>Seleccione al pupilo que desea consultar</h4>
+        </div>
+        <br>
+    </div>
+
+    <div class="row">
+
+        {% for alumno in lista_alumnos %}
+        <div class="four columns">
+            <div class="panel" align="center">
+                <p>
+                    <img src="/img/photo.jpg" ><br >
+                    <strong>{{ alumno.nombre }}</strong><br >
+                    4&ordm; Medio A<br >
+                    Administraci&oacute;n de Empresa<br><br>
+
+                    <a href="/home/{{ alumno.id}}" class="button nice">Seleccionar &rarr;</a>
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+        
+
+    <script type="text/javascript" src="/js/index.js"></script>
+
+{% endblock content %}

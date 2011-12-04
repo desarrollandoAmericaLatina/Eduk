@@ -1,7 +1,6 @@
 from main.models import *
 from django.contrib import admin
 
-admin.site.register(usuario)
 admin.site.register(establecimiento)
 admin.site.register(curso)
 admin.site.register(asignatura)

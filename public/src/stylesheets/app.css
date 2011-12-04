@@ -1,0 +1,70 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+.reveal-modal{display: none;}
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+body{
+	background: #eee;
+}
+
+header{
+	background: #4096EE url("../images/header-bg.png") repeat-x; 
+}
+section{
+	background: #fff;
+	min-height: 300px;
+}
+footer{
+	background: #eee url('../images/footer-bg.png') repeat-x;
+	padding-top: 15px !important;
+}
+
+/* -----------------------------------------
+   Login
+----------------------------------------- */
+#dvLoginAlumnoContrasenaPhone, #dvLoginAlumnoContrasena{display: none;}
+
+/* -----------------------------------------
+   Dashboard
+----------------------------------------- */
+.profile .hide-on-phones,
+.profile .show-on-phones{
+	padding-top: 5px;
+}
+.profile .hide-on-phones.profileInfo{
+	text-align: center;
+}
+.profile .show-on-phones{
+	display: inline-block;
+	min-height: 110px;
+}
+.profile .hide-on-phones img,
+.profile .show-on-phones img{
+	border:solid 1px gray;
+	padding: 2px;
+}
+.profile .hide-on-phones img{
+	height: 150px;
+}
+.profile .show-on-phones img{
+	height: 100px;
+	margin-right: 20px;
+}
+
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+

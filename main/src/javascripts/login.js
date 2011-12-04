@@ -5,14 +5,26 @@ $(function(){
 	$("form").each(function(){
 		$(this).submit(function(e){
 			e.preventDefault();
+
+            $.post('.', $(this).serialize(), function(data){
+                if(data.login)
+                {
+                    window.location = '/home';
+                }
+                else
+                {
+                    $(".alert-box", $(this)).show();
+                    $("input[type='text']", $(this)).val('');
+                }
+            }, 'json');
 			
 			/*$(".alert-box", $(this)).show();
 			$("input[type='text']", $(this)).val('');*/
-			if($('input[name="tipo_usuario"]', $(this)).val()=='apoderado'){
+			/*if($('input[name="tipo_usuario"]', $(this)).val()=='apoderado'){
 				window.location = '/pupilos.php';
 			}else{
-				window.location = '/index.php';
-			}
+				window.location = '/';
+			}*/
 		});
 	});
 
