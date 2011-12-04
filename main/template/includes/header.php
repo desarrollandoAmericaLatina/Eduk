@@ -33,3 +33,11 @@
 		</div>
 	</header>
 	<section>
+		<?php if($_SERVER['REQUEST_URI']!='/login.php'):?>
+		<div class="row hide-on-phones" style="padding-top: 5px;">
+			<div class="twelve columns">
+				<a href="/login.php" class="right button nice small red">Cerrar Sesi&oacute;n</a>
+				<a href="" class="right button nice small white">Cambiar Contrase&ntilde;a</a>
+			</div>
+		</div>
+		<?php endif;?>
