@@ -10,6 +10,8 @@ $(function(){
 			$("input[type='text']", $(this)).val('');*/
 			if($('input[name="tipo_usuario"]', $(this)).val()=='apoderado'){
 				window.location = '/pupilos.php';
+			}else if($('input[name="tipo_usuario"]', $(this)).val()=='docente'){
+				window.location = '/profesor.php';
 			}else{
 				window.location = '/index.php';
 			}

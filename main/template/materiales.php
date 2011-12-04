@@ -64,12 +64,12 @@
 
 			<dl class="nice tabs vertical">
 				<dd><h6>Hoy</h6><br></dd>
-				<dd><a href="#" class="aLinkShowSummary">20/12 - Tecnolog&iacute;a <span class="close right">&rarr;</span></a></dd>
+				<dd><a href="#" class="aLinkShowSummary">20/12 - Tecnolog&iacute;a - <small>Cristian Lobos</small> <span class="close right">&rarr;</span></a></dd>
 				<dd><br><h6>Ma&ntilde;ana</h6><br></dd>
-				<dd><a href="#" class="aLinkShowSummary">21/12 - Matem&aacute;ticas  <span class="close right">&rarr;</span></a></dd>
+				<dd><a href="#" class="aLinkShowSummary">21/12 - Matem&aacute;ticas - <small>Arturo Vidosola</small>  <span class="close right">&rarr;</span></a></dd>
 				<dd><br><h6>Pr&oacute;ximos d&iacute;as</h6><br></dd>
-				<dd><a href="#" class="aLinkShowSummary">21/12 - Ciencias Sociales  <span class="close right">&rarr;</span></a></dd>
-				<dd><a href="#" class="aLinkShowSummary">24/12 - Contabilidad <span class="close right">&rarr;</span></a></dd>
+				<dd><a href="#" class="aLinkShowSummary">21/12 - Ciencias Sociales - <small>Ana Cortez</small>  <span class="close right">&rarr;</span></a></dd>
+				<dd><a href="#" class="aLinkShowSummary">24/12 - Contabilidad - <small>Mauricio Rojas</small> <span class="close right">&rarr;</span></a></dd>
 			</dl>
 
 		<dl class="nice mobile tabs show-on-phones">
